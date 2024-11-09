@@ -89,3 +89,7 @@ footer {
     text-decoration: overline;
     color: black
 }
+section{
+    /*Estilizando a fonte do texto que está dentro da section*/
+    font-family: Arial, Helvetica, sans-serif;
+}

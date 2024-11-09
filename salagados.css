@@ -84,3 +84,25 @@ ol {
     justify-content: center;
     gap: 1rem;
 }
+table{
+    border: 1px solid;/*Cria uma borde de 1px de altura e dashed é a borda do tipo pontilhada*/
+    border-color: #d9d4e6; /*Aplica uma à borda*/
+}
+thead{ /*Estilização do cabeçalho- 1Linha da tabela*/
+    background-color: rgb(186, 201, 57);
+    color: #f1f1f1; /*Cor do texto*/
+    height: 15px; /*Altura da 1Linha*/
+}
+th{/*Estiliza cada célula do cabeçalho*/
+    width: 150px;/*largura da célula*/
+    text-align: center;/*Alinhamento horizontal do texto*/
+    align-items: center; /*alinhamento vertical do texto*/
+    border: #d0dbf8 solid;/*cor da bora*/
+}
+tbody{/*Estiliza o corpo da tabela - todas as linhas excetp a primeira*/
+    background-color: #bebd76;/*cor de fundo*/
+}
+td{/*Estiliza cada célula do corpo da tabela*/
+    text-align: center; /*Alinhamento horizontal do texto*/
+    border: rgb(209, 212, 29) solid;/*Cria uma borda com cor*/
+}
