@@ -106,4 +106,5 @@ tbody{/*Estiliza o corpo da tabela - todas as linhas excetp a primeira*/
 td{/*Estiliza cada célula do corpo da tabela*/
     text-align: center; /*Alinhamento horizontal do texto*/
     border: rgb(209, 212, 29) solid;/*Cria uma borda com cor*/
+    width: 150px;
 }
