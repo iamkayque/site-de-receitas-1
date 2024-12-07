@@ -219,32 +219,32 @@
                             <td> <a href="https://www.atacadao.com.br/leite-condensado-italac-22337-30538/p">Leite
                                     Condensado
                                 </a></td>
-                            <td><input type="number" placeholder="Preço x.xx" id="preco1"></td>
-                            <td><input type="number" placeholder="Qtd" id="qtd1"></td>
-                            <td id="tot1"></td>
+                            <td><input type="number" placeholder="preco" class="preco" value="0"></td>
+                            <td><input type="number" placeholder="quantidade" class="qtd"></td>
+                            <td class="tot"></td>
                         </tr>
 
                         <tr><!--Linha Ingrediente 2-->
                             <td><input type="text" placeholder="Manteiga" id="itm2"></td>
                             <td> <a href="https://www.atacadao.com.br/margarina-qualy-com-sal-35265-6283/p">Manteiga
-                            <td><input type="number" placeholder="Preço x.xx" id="preco2"></td>
-                            <td><input type="number" placeholder="Qtd" id="qtd2"></td>
-                            <td id="tot2"></td>
+                            <td><input type="number" placeholder="preco" class="preco"></td>
+                            <td><input type="number" placeholder="quantidade" class="qtd"></td>
+                            <td class="tot"></td>
                         </tr>
                         <tr><!--Linha Ingrediente 3-->
                             <td><input type="text" placeholder="Chocolate em Pó" id="itm3"></td>
                             <td> <a href="https://www.atacadao.com.br/chocolate-em-po-nestle-3022-16705/p">Chocolate em
                                     pó
-                            <td><input type="number" placeholder="Preço x.xx" id="preco3"></td>
-                            <td><input type="number" placeholder="Qtd" id="qtd3"></td>
-                            <td id="tot3"></td>
+                            <td><input type="number" placeholder="preco" class="preco"></td>
+                            <td><input type="number" placeholder="quantidade" class="qtd"></td>
+                            <td class="tot"></td>
                         </tr>
                         <tr><!--Linha Ingrediente 4-->
                             <td><input type="text" placeholder="Leite" id="itm4"></td>
                             <td> <a href="https://www.atacadao.com.br/leite-longa-vida-italac-com-tampa-integral-tp-com-1l-34808-32346/p">Leite
-                            <td><input type="number" placeholder="Preço x.xx" id="preco4"></td>
-                            <td><input type="number" placeholder="Qtd" id="qtd4"></td>
-                            <td id="tot4"></td>
+                            <td><input type="number" placeholder="preco" class="preco"></td>
+                            <td><input type="number" placeholder="quantidade" class="qtd"></td>
+                            <td class="tot"></td>
                         </tr>
 
                         <tr>
@@ -252,6 +252,8 @@
                             <td id="totalFinal"></td>
                         </tr>
                     </table>
+
+                    <button onclick="calcular()">Calcular</button>
             </div>
 
             <br>
