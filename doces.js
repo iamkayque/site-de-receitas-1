@@ -13,7 +13,7 @@ function calcular() {
 
             const total1 = preco * quantidade || 0;
 
-            linha.querySelector(".tot").textContent = tot.toFixed(2);
+            linha.querySelector(".tot").textContent = total1.toFixed(2);
 
             tot += total1; 
 
